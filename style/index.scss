@@ -1,0 +1,54 @@
+.btn-right{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1vh;
+
+  .logout-link {
+    color: #333333;
+    text-decoration: none;
+  }
+}
+
+
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("../upload/weather.jpg");
+  color: white;
+  background-size: cover;
+  background-attachment: fixed;
+  .btn-sizing{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+.container{
+  color: whitesmoke;
+  width: 440rem;
+  text-align: center;
+  justify-content: center;
+  .begin{
+    font-weight: 700;
+    margin-top: 150px;
+    font-size: 60px;
+  }
+
+}
+input{
+  width: 350px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.weatherInfo{
+  color: indianred;
+  font-family: poppin, 'Times New Roman', Times, serif;
+  .description{
+    font-weight: 700;
+    font-size: 25px
+  }
+}
